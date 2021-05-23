@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<head>
+    <link rel='stylesheet' href='style.css'>
+    <script src='script.js' async></script>
+    <title>Library</title>
+</head>
+
+<body>
+    <div id='main'>
+        <h1>Personal Library</h1>
+        <button id='newBookButton'>NEW BOOK</button>
+        <div id='formContainer'>
+            <h2>Add New Book</h2>
+            <form id='form' onsubmit='return false'>
+                <label for='title' class='formItem'><b>Title</b></label>
+                <input type='text' class='formItem' id='titleInput' placeholder='Title of Book' name='title' required>
+
+                <label for='author' class='formItem'><b>Author</b></label>
+                <input type='text' class='formItem' placeholder='Name of Author' id='authorInput' required>
+
+                <label for='pages' class='formItem'><b>Pages</b></label>
+                <input type='text' class='formItem' placeholder='Number of Pages' id='pagesInput' required>
+
+                <label for='hasRead' class='formItem'>Have Finished Reading</label>
+                <input type='checkbox' class='formItem' id='hasReadInput'>
+
+                <input type='submit' class='formItem' id='submitForm'></input>
+                <button class='formItem' id='closeForm'>Close</button>
+            </form>
+        </div>
+        <div id='container'>
+        </div>
+    </div>
+</body>

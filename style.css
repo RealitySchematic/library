@@ -1,0 +1,40 @@
+html, body {
+    margin: 0 auto;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+
+.formItem{
+    margin: 5px;
+}
+
+.books{
+    border: solid;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+    margin: 25px;
+}
+
+.button{
+    margin: 5px;
+}
+
+#formContainer{
+    display: none;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align: right;
+}
