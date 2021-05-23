@@ -5,6 +5,10 @@ html, body {
     width: 100%;
 }
 
+button {
+    margin: 5px;
+}
+
 .formItem{
     margin: 5px;
 }
@@ -12,8 +16,9 @@ html, body {
 .books{
     border: solid;
     border-radius: 10px;
-    background-color: blanchedalmond;
     margin: 25px;
+    background-color: blanchedalmond;
+
 }
 
 .button{
@@ -24,9 +29,8 @@ html, body {
     display: none;
 }
 
-#container{
+#libraryContainer{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
     padding-left: 10%;
     padding-right: 10%;
 }
